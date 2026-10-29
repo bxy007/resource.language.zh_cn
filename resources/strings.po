@@ -22437,6 +22437,18 @@ msgctxt "#60085"
 msgid "Adobe RGB"
 msgstr "Adobe RGB"
 
+#. "Dolby Vision HDR Vivid"
+#: system/settings/settings.xml
+msgctxt "#60135"
+msgid "Convert HDR Vivid video to DV profile 8.1 during playback"
+msgstr "播放时把HDR Vivid转换成DV Profile 8.1"
+
+#. "Dolby Vision HDR Vivid"
+#: system/settings/settings.xml
+msgctxt "#60136"
+msgid "Set to On to convert each HDR Vivid frame's MaxRGB statistics into a DV profile 8.1 RPU during playback. Vivid tone-mapping curves are not rewritten as Dolby trims. An existing Dolby Vision RPU is left unchanged."
+msgstr "打开后，播放时把每一帧HDR Vivid的MaxRGB统计量转换成DV Profile 8.1的RPU。Vivid的调色曲线不会被改写成杜比微调。片源里已有的杜比视界RPU保持不动。"
+
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
 msgctxt "#60101"
