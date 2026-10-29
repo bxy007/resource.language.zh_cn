@@ -22431,6 +22431,12 @@ msgctxt "#60084"
 msgid "EPSON LS12000"
 msgstr "EPSON LS12000"
 
+#. "Dolby Vision VSVDB"
+#: system/settings/settings.xml
+msgctxt "#60085"
+msgid "Adobe RGB"
+msgstr "Adobe RGB"
+
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
 msgctxt "#60101"
