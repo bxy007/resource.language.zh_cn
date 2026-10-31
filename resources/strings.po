@@ -509,8 +509,8 @@ msgid "Current:"
 msgstr "当前："
 
 msgctxt "#144"
-msgid "Build:"
-msgstr "版本："
+msgid "Build"
+msgstr "版本"
 
 msgctxt "#145"
 msgid "Network:"
@@ -625,8 +625,8 @@ msgid "Display 4:3 videos as"
 msgstr "将 4:3 视频显示为"
 
 msgctxt "#174"
-msgid "Compiled:"
-msgstr "编译："
+msgid "Compiled"
+msgstr "编译时间"
 
 msgctxt "#175"
 msgid "Moods"
@@ -1766,8 +1766,8 @@ msgid "Autorun media"
 msgstr "自动播放媒体"
 
 msgctxt "#448"
-msgid "Dolby Digital Plus (E-AC3) capable receiver"
-msgstr "杜比数字+（E-AC3）兼容功放"
+msgid "Dolby Digital Plus (EAC3) capable receiver"
+msgstr "兼容杜比数字+（EAC3）的功放"
 
 msgctxt "#449"
 msgid "Enabled"
@@ -1822,8 +1822,8 @@ msgid "[active]"
 msgstr "[启用]"
 
 msgctxt "#462"
-msgid "Subtitle stream"
-msgstr "字幕流"
+msgid "Subtitle"
+msgstr "字幕"
 
 msgctxt "#463"
 msgid "Backlight"
@@ -2471,12 +2471,12 @@ msgid "Use album levels"
 msgstr "使用专辑增益等级"
 
 msgctxt "#641"
-msgid "Preamp for files with ReplayGain information"
-msgstr "带有 ReplayGain 信息文件的前置增益"
+msgid "Files with ReplayGain information"
+msgstr "含ReplayGain信息的文件"
 
 msgctxt "#642"
-msgid "Preamp for files without ReplayGain information"
-msgstr "不含 ReplayGain 信息文件的前置增益"
+msgid "Files without ReplayGain information"
+msgstr "不含ReplayGain信息的文件"
 
 msgctxt "#643"
 msgid "Avoid clipping protection on ReplayGained files"
@@ -5132,8 +5132,8 @@ msgid "Total uptime"
 msgstr "累计运行时间"
 
 msgctxt "#12395"
-msgid "Battery level"
-msgstr "电池电量"
+msgid "Linux version"
+msgstr "Linux内核版本"
 
 #. Label of button in the System Info screen asking for donations. "Thank you!" is used to convey gratitude to the users of our beloved software.
 msgctxt "#12396"
@@ -6136,8 +6136,8 @@ msgid "Prefer VDPAU video mixer"
 msgstr "首选 VDPAU 视频混合器"
 
 msgctxt "#13438"
-msgid "Allow hardware acceleration with DRM PRIME"
-msgstr "允许使用 DRM PRIME 硬件加速"
+msgid "Allow hardware acceleration - amcodec"
+msgstr "允许硬件视频解码"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
@@ -6420,8 +6420,8 @@ msgid "Threshold for pitch correction"
 msgstr "音高修正阈值"
 
 msgctxt "#13518"
-msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmunk voices\" that normally result from speeding up a video"
-msgstr "当速度变化超过该阈值时，将应用音调校正滤波器。这可以避免视频加速时通常会产生的 \"花栗鼠声音\""
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
+msgstr "变速幅度超过此阈值时，启用音调校正，避免加速播放后人声变尖。"
 
 msgctxt "#13519"
 msgid "Embedded art"
@@ -6458,7 +6458,7 @@ msgstr "启用后，使用初始发行年份，而不是专辑发行年份（如
 
 msgctxt "#13550"
 msgid "Delay after change of refresh rate"
-msgstr "更改刷新率后的延迟"
+msgstr "刷新率切换等待时间"
 
 #. value for setting 'Create versions for similar videos'
 msgctxt "#13551"
@@ -6498,8 +6498,8 @@ msgstr "最大平滑快进速度"
 
 #. Playback speed unit used to format speeds for display ex. 2x, 4x, ...
 msgctxt "#13559"
-msgid "{0:d}x"
-msgstr "{0:d} 倍"
+msgid "2x"
+msgstr "2倍"
 
 msgctxt "#13560"
 msgid "4x"
@@ -7059,7 +7059,7 @@ msgstr "白名单列表"
 
 msgctxt "#14127"
 msgid "Allow 3:2 pulldown refresh rates"
-msgstr "允许 3:2 下拉刷新率"
+msgstr "允许3:2下拉刷新率"
 
 msgctxt "#14128"
 msgid "Allow double refresh rates"
@@ -7936,8 +7936,8 @@ msgid "Bicubic (Mitchell)"
 msgstr "双三次（Mitchell）"
 
 msgctxt "#16315"
-msgid "Lanczos3 - Fast"
-msgstr "Lanczos3 - 快速"
+msgid "Lanczos3 - Optimised"
+msgstr "Lanczos3（优化版）"
 
 #. value for setting 'Create versions for similar videos'
 msgctxt "#16316"
@@ -7969,8 +7969,8 @@ msgid "Spline36"
 msgstr "Spline36"
 
 msgctxt "#16323"
-msgid "Spline36 - Fast"
-msgstr "Spline36 - 快速"
+msgid "Spline36 - Optimised"
+msgstr "Spline36（优化版）"
 
 msgctxt "#16324"
 msgid "Software - Blend"
@@ -8210,8 +8210,8 @@ msgstr "此事件已被设置定时器"
 
 #. message box text stating that a pvr channel could not be played.
 msgctxt "#19035"
-msgid "{0:s} can't be played."
-msgstr "{0:s} 无法播放。"
+msgid "{0:s} can't be played. Check the log for more information about this message."
+msgstr "无法播放{0:s}。详情请查看日志。"
 
 msgctxt "#19036"
 msgid "This recording can't be played."
@@ -8569,18 +8569,18 @@ msgstr "备用帧率"
 
 #. message box text stating that a timer could not be saved
 msgctxt "#19109"
-msgid "Could not save the timer."
-msgstr "无法保存计时器。"
+msgid "Could not save the timer. Check the log for more information about this message."
+msgstr "无法保存定时任务。详情请查看日志。"
 
 #. message box text stating that a timer could not be deleted
 msgctxt "#19110"
-msgid "Could not delete the timer."
-msgstr "无法删除计时器。"
+msgid "Could not delete the timer. Check the log for more information about this message."
+msgstr "无法删除定时任务。详情请查看日志。"
 
 #. message box text stating that a PVR backend error occurred
 msgctxt "#19111"
-msgid "PVR backend error."
-msgstr "PVR 后端出错。"
+msgid "PVR backend error. Check the log for more information about this message."
+msgstr "PVR后端出错。详情请查看日志。"
 
 #. delete recordings confirmation message box text
 msgctxt "#19112"
@@ -8829,8 +8829,8 @@ msgstr "录制"
 
 #. error box text stating that recording could not be started
 msgctxt "#19164"
-msgid "Could not start recording."
-msgstr "无法开始录制。"
+msgid "Could not start recording. Check the log for more information about this message."
+msgstr "无法开始录制。详情请查看日志。"
 
 #. Label for "switch to channel" button""
 msgctxt "#19165"
@@ -8859,8 +8859,8 @@ msgstr "隐藏视频信息框"
 
 #. error box text stating that recording could not be stopped
 msgctxt "#19170"
-msgid "Could not stop recording."
-msgstr "无法停止录制。"
+msgid "Could not stop recording. Check the log for more information about this message."
+msgstr "无法停止录制。详情请查看日志。"
 
 #. pvr settings "start playback full screen" setting label
 msgctxt "#19171"
@@ -8975,8 +8975,8 @@ msgstr "连接的 PVR 后端不支持频道扫描。"
 
 #. error message box text stating that a given pvr channel could not be played
 msgctxt "#19193"
-msgid "The channel scan can't be started."
-msgstr "无法启动频道扫描。"
+msgid "The channel scan can't be started. Check the log for more information about this message."
+msgstr "无法开始频道扫描。详情请查看日志。"
 
 #. Question after an explanation of what will happen, such as #35702
 msgctxt "#19194"
@@ -9315,8 +9315,8 @@ msgstr "家长控制，输入 PIN："
 
 #. message box text stating that a timer could not be updated
 msgctxt "#19263"
-msgid "Could not update the timer."
-msgstr "无法更新计时器。"
+msgid "Could not update the timer. Check the log for more information about this message."
+msgstr "无法更新定时任务。详情请查看日志。"
 
 #. label for 'incorrect pin' error dialog header
 msgctxt "#19264"
@@ -14744,8 +14744,8 @@ msgid "Windows media audio 2 (FFmpeg wmav2)"
 msgstr "Windows media audio 2（FFmpeg wmav2）"
 
 msgctxt "#34008"
-msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in platform keyboard"
-msgstr "当需要输入文字时，会弹出 Kodi 内置虚拟键盘，而不是系统原生平台键盘"
+msgid "When you need to enter some text, Kodi virtual keyboard will show up instead of the built-in tvOS keyboard"
+msgstr "输入文字时，使用Kodi虚拟键盘代替tvOS系统键盘。"
 
 msgctxt "#34009"
 msgid "Siri remote pan gesture horizontal sensitivity"
@@ -14826,23 +14826,23 @@ msgstr "为了让某些 AVR 保持开机，我们发送一个人耳听不见的�
 
 #. Indicates if Audio Engine should include lfe when downmixing
 msgctxt "#34114"
-msgid "Include LFE when downmixing"
-msgstr "下混时包括 LFE（低频效果声道）"
+msgid "8 bits"
+msgstr "8位"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 msgctxt "#34115"
-msgid "If enabled, this setting will include lfe channel into the mixing when there is no dedicated LFE output channel available. This only makes sense for full range speakers."
-msgstr "如果启用，当没有专门的 LFE 输出通道时，该设置将在混音中加入 LFE 通道。这只适用于全频扬声器。"
+msgid "10 bits"
+msgstr "10位"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 msgctxt "#34116"
-msgid "Off"
-msgstr "关"
+msgid "12 bits"
+msgstr "12位"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 msgctxt "#34117"
-msgid "50%"
-msgstr "50%"
+msgid "16 bits"
+msgstr "16位"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 msgctxt "#34118"
@@ -16420,8 +16420,8 @@ msgid "Switch source to this device on startup"
 msgstr "启动时切换源到此设备"
 
 msgctxt "#36021"
-msgid "Physical address (overrules HDMI port)"
-msgstr "物理地址（取代 HDMI 端口）"
+msgid "Physical address"
+msgstr "CEC物理地址"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -16559,28 +16559,28 @@ msgstr "调谐器设备"
 
 #. Label of CEC setting double_tap_timeout_ms: a repeated identical button press within this many ms is treated as a duplicate and dropped (double-tap dedup). 0 disables it.
 msgctxt "#36054"
-msgid "Remote button double press timeout (ms) (0 = off)"
-msgstr "遥控器按键双击超时（毫秒）（0 = 关闭功能）"
+msgid "Minutes standby is delayed after Screensaver is activated"
+msgstr "屏保启动后延迟待机（分钟）"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 msgctxt "#36055"
-msgid "Always"
-msgstr "总是"
+msgid "Put devices in standby by Screensaver on paused video"
+msgstr "暂停视频时也允许屏保触发设备待机"
 
 #. Item list value of setting with label #36009 "Put devices in standby mode when activating the screensaver"
 msgctxt "#36056"
-msgid "Unless media is playing"
-msgstr "除非正在播放媒体"
+msgid "OSD name"
+msgstr "CEC设备名称"
 
 #. Label of CEC setting volume_control: whether Kodi's volume keys adjust the volume of the amplifier or TV over CEC instead of Kodi's own mixer
 msgctxt "#36057"
-msgid "Send volume commands over CEC"
-msgstr "通过 CEC 发送音量控制指令"
+msgid "Wake-Up by auto power on"
+msgstr "自动开机唤醒"
 
 #. Item list value of setting with label #36057 "Send volume commands over CEC": send them to an amplifier, or to a TV that reports CEC 2.0
 msgctxt "#36058"
-msgid "Automatic"
-msgstr "自动"
+msgid "Wake-Up by streaming path/routing change"
+msgstr "通过信号路径切换唤醒"
 
 #: system/peripherals.xml
 msgctxt "#36059"
@@ -16700,13 +16700,13 @@ msgid "Choose which character set is used for displaying text in the user interf
 msgstr "选择在用户界面显示文本所使用的字符集。不影响字幕的字符集，其设置见 播放器 > 语言。"
 
 msgctxt "#36117"
-msgid "Render on high-performance GPU"
-msgstr "使用高性能 GPU 渲染"
+msgid "Select country location."
+msgstr "选择用于时区列表的国家或地区。"
 
 #. Description of setting with label #36117 "Render on high-performance GPU"
 msgctxt "#36118"
-msgid "On laptops with two GPUs, render on the high-performance GPU even when the display is connected to the other GPU. Frees the CPU's power and memory bandwidth for decoding, but uses more power. Exclusive fullscreen is not available in this mode."
-msgstr "在搭载双 GPU 的笔记本上，即使显示器连接另一块 GPU，仍使用高性能 GPU 进行渲染。此举可释放 CPU 算力与内存带宽用于解码，但耗电量更高。此模式下无法使用独占全屏。"
+msgid "Select your current timezone."
+msgstr "选择当前时区。"
 
 #. Description of setting with label #285 "Preferred audio language"
 msgctxt "#36119"
@@ -16928,7 +16928,7 @@ msgstr "允许调整显示器刷新率以匹配视频帧率。这可能会使视
 #. Description of setting with label #13550 "Delay after change of refresh rate"
 msgctxt "#36165"
 msgid "Delay of reset event after a change of refresh rate"
-msgstr "更改刷新率后的事件重置延迟"
+msgstr "切换分辨率或刷新率时，为显示设备稳定信号预留等待时间。等待期间暂停音视频；设为“关”表示不要求额外等待。此项不会加快显示设备切换，也不会检测画面何时出现。"
 
 #. Description of setting with label #13510 "Sync playback to display"
 msgctxt "#36166"
@@ -16987,8 +16987,8 @@ msgstr "此功能区包含视频文件列表处理相关设置。"
 
 #. Description of setting with label #22079 "Default select action"
 msgctxt "#36177"
-msgid "Toggle between [Choose], [Play] (default), [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will play videos as defined by the setting 'Default play action'.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr "在[选择]、[播放]（默认）、[显示信息]和[队列项目]之间切换。[CR][选择]将打开一个上下文菜单来选择一个项目，例如显示信息。[CR][播放]将按照 \"默认播放操作 \"设置来播放视频。[CR][显示信息]将打开视频的信息对话框。[CR][队列项目]将把视频添加到视频播放列表中。"
+msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
+msgstr "选择点击视频时执行的操作。[CR]［选择］打开操作菜单。[CR]［播放］有续播点时询问从头播放还是续播，否则从头播放。[CR]［续播］从上次观看位置继续播放。[CR]［显示信息］打开视频信息窗口。[CR]［加入队列］将视频添加到播放列表。"
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 msgctxt "#36178"
@@ -17051,8 +17051,8 @@ msgstr "设置字幕使用的字符集。"
 
 #. Description of setting with label #21368 "Override subtitles fonts"
 msgctxt "#36190"
-msgid "Override subtitles fonts in subtitle formats such as ASS / SSA."
-msgstr "覆盖字幕格式（如ASS/SSA）中的字幕字体。"
+msgid "Override subtitles fonts in subtitle formats such as ASS / SSA. For native ASS / SSA files, this only takes effect when \"Override ASS / SSA styles\" is enabled."
+msgstr "使用设置中的字体覆盖字幕自带字体。对于原生ASS/SSA字幕，还需在“覆盖ASS/SSA样式”中启用相应的样式覆盖，才能生效。"
 
 #. Description of setting with label #21366 "Custom subtitle folder"
 msgctxt "#36191"
@@ -17061,8 +17061,8 @@ msgstr "设置用于字幕的自定义目录。可以是一个网络共享目录
 
 #. Description of setting with label #21460 "Subtitle location on screen"
 msgctxt "#36192"
-msgid "Location of subtitles on the screen. [Bottom of video] / [Top of video] When possible the subtitles will be positioned within the video area (depends on video encoding). Please note that some forced positions in the subtitles cannot be changed."
-msgstr "字幕在屏幕上的位置。[视频下方] / [视频上方] 可能的情况下字幕将被放置在黑边内（取决于视频编码）。请注意，字幕中的某些强制位置无法更改。"
+msgid "Applies to text subtitles only (SRT, ASS, WebVTT) on all video types (SDR, HDR10, HDR10+, HLG, Dolby Vision). Bitmap subtitles (PGS, VobSub) render at their source position and are not affected by this setting; use [Subtitle vertical position] above to reposition bitmap subtitles. Controls where text subtitles are placed on screen when [Subtitle vertical position] is set to [Original Position]. [Original Position] (default) renders subtitles where the source or subtitle style places them and is required for [Restrict subtitles to active picture area] below to take effect. [Bottom of video] and [Top of video] anchor subtitles inside the video area. [Bottom of screen] and [Top of screen] anchor subtitles at the display edges (typically inside the letterbox bars on cinemascope content). [Manual] uses the position from the calibration bar. Some forced subtitles cannot be repositioned."
+msgstr "设置文本字幕（SRT、ASS、WebVTT等）的对齐方式，适用于SDR、HDR10、HDR10+、HLG和杜比视界视频。PGS、VobSub等位图字幕另由位图字幕的位置设置控制。"
 
 #. Description of settings category with label #14087 "DVDs"
 msgctxt "#36193"
@@ -17115,8 +17115,8 @@ msgstr "启用“个人视频录像机”（PVR）功能。需要至少安装有
 
 #. Description of setting with label #22076 "Default play action"
 msgctxt "#36204"
-msgid "Toggle between [Ask if resumable] (default), [Resume] and [Play from beginning].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume playback from the last position that you were viewing them. If no resume point is set, playback will automatically start from the beginning.[CR][Play from beginning] will automatically start playback from beginning, ignoring any existing resume positions."
-msgstr "在 [可恢复时询问]（默认）、[继续播放] 和 [从头开始播放] 之间切换。[CR][可恢复时询问]：若存在恢复点，系统会询问您是从头开始播放还是从上次中断处继续播放。[CR][继续播放]：自动从上次观看的位置继续播放。若未设置恢复点，将自动从头开始播放。[CR][从头开始播放] 忽略所有已有的恢复点，自动从头开始播放。"
+msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
+msgstr "选择执行播放操作时如何处理续播点。[CR]［有续播点时询问］有观看记录时询问从头播放还是续播。[CR]［续播］直接从上次观看位置继续播放。"
 
 msgctxt "#36205"
 msgid "Sort the channels by channel number from the backend, but use local numbering for channels."
@@ -17390,13 +17390,13 @@ msgstr "用类似 MP3Gain 的程序读取编码到音频文件中的回放增益
 
 #. Description of setting with label #641 "Preamplification level to use for files with encoded ReplayGain information"
 msgctxt "#36268"
-msgid "Preamplification level to use for files with encoded ReplayGain information."
-msgstr "用于带有内置 ReplayGain 信息文件的前置增益级别。"
+msgid "Reference volume (PreAmp level) to use for files with encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
+msgstr "设置含ReplayGain信息的文件所使用的音量基准。播放时会结合文件中的ReplayGain增益计算最终音量。默认89dB；调高可能导致削波。"
 
 #. Description of setting with label #642 "Preamplification level to use for files without encoded ReplayGain information"
 msgctxt "#36269"
-msgid "Preamplification level to use for files without encoded ReplayGain information."
-msgstr "用于无内置 ReplayGain 信息文件的前置增益级别。"
+msgid "Reference volume (PreAmp level) to use for files without encoded ReplayGain information. Default is 89dB as per standard. Change with caution."
+msgstr "设置不含ReplayGain信息的文件所使用的音量基准。默认89dB；调高可能导致削波。"
 
 #. Description of setting with label #643 "Avoid clipping protection on ReplayGained files"
 msgctxt "#36270"
@@ -17804,13 +17804,13 @@ msgstr "改变此应用在选定屏幕显示方式，窗口或全屏。"
 
 #. Description of setting with label #169 "Resolution"
 msgctxt "#36352"
-msgid "Changes the resolution that the user interface is displayed in."
-msgstr "改变用户界面显示的分辨率。"
+msgid "Changes the resolution that the user interface is displayed in. A 4K (2160p) desktop can make high-resolution skin artwork look sharper, but 2160p at 50/60Hz uses far more HDMI bandwidth than lower modes. Some TVs, AVRs or projectors cannot handle it, and a near-limit cable in a long chain can struggle too, so the picture keeps dropping out (loss of sync). If 2160p60 does not sync, either stay at 1080p60 (smooth, not 4K) or pick 2160p at 24/25Hz (4K, less smooth). Video still switches to its native mode through the whitelist, whatever you set here."
+msgstr "设置Kodi界面的显示输出分辨率，实际界面渲染尺寸还受平台和皮肤限制。4K50/60Hz需要较高的HDMI带宽，显示设备、功放或线缆不兼容时可能出现无信号或反复黑屏；可尝试1080p60Hz或4K24/25Hz。开启“调整显示刷新率”后，视频播放会按白名单选择输出模式。"
 
 #. Description of setting with label #243 "Refresh Rate"
 msgctxt "#36353"
-msgid "Changes the refresh rate that the user interface is displayed in."
-msgstr "改变用户界面显示的刷新率。"
+msgid "Changes the refresh rate that the user interface is displayed in. Higher rates make menus and scrolling smoother, but 2160p50/60 needs far more HDMI bandwidth than 2160p24/25 and will not sync on some displays, AVRs or projectors. If 2160p60 does not sync, drop to 1080p60 to keep motion smooth, or to 2160p24/25 to keep 4K."
+msgstr "设置Kodi界面的输出刷新率。较高刷新率有助于菜单和滚动更流畅。4K50/60Hz的HDMI带宽需求高于4K24/25Hz；连接不稳定时，可尝试1080p60Hz，或降低4K输出的刷新率。"
 
 #. Description of setting with label #14083 "Use fullscreen window"
 msgctxt "#36354"
@@ -18115,8 +18115,8 @@ msgstr "无可用信息。"
 
 #. Description of setting with label #1451 "Restart playback after waking up"
 msgctxt "#36416"
-msgid "Restarts playback of the last played file when woken up."
-msgstr "设备唤醒后继续播放上次播放的文件。"
+msgid "Specify the type of remote used."
+msgstr "选择使用的苹果遥控器类型。"
 
 #. Description of setting with label #13602 "Allow start of Kodi with remote"
 #: system/settings/settings.xml
@@ -18127,12 +18127,8 @@ msgstr "始终运行Kodi helper使遥控器可用来启动Kodi。"
 # empty strings from id 36416 to 36417
 #. Description of setting with label #295 "Low latency mode"
 msgctxt "#36418"
-msgid ""
-"Reduces audio processing latency. Improves playback start, unpause and seek (the audio returns sooner).\n"
-"You can disable this setting if you experience audio issues."
-msgstr ""
-"降低了音频处理的延迟。提升了音频的播放启动速度、暂停后的继续播放速度以及音轨定位速度（音频内容会更快地被播放出来）。\n"
-"如果遇到音频相关问题，你可以禁用此设置。"
+msgid "Specify the delay between button sequences on a universal remote."
+msgstr "设置通用遥控器发送连续按键指令时的序列间隔。"
 
 #. Description of setting with label #21417 "Settings"
 msgctxt "#36419"
@@ -18180,8 +18176,8 @@ msgstr "录制"
 
 #. Description of setting with label #667 "Enable Dolby Digital transcoding"
 msgctxt "#36429"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. When E-AC3 passthrough is also enabled, Dolby Digital Plus (E-AC3) is used for higher quality. If your system supports PCM multichannel audio via HDMI, leave this disabled."
-msgstr "如果音频输出接口仅支持以杜比数字 5.1（AC-3）格式传输多声道音频（例如 S/PDIF 接口），请勾选此选项。若同时启用了 E-AC3 直通，将使用音质更佳的增强型杜比数字（E-AC3）。如果你的系统通过 HDMI 支持多声道 PCM 音频，请禁用此选项。"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC3), such as a S/PDIF connection. When EAC3 passthrough is also enabled, Dolby Digital Plus (EAC3) is used for higher quality. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "用于无法输出多声道PCM、但能接收压缩多声道音频的连接，如S/PDIF。将解码后的多声道音频编码为杜比数字（AC3）输出；同时启用EAC3直通且输出设备支持时，优先使用杜比数字+（EAC3）。"
 
 #. Description for setting category #14101: "Video Acceleration"
 msgctxt "#36430"
@@ -18238,13 +18234,13 @@ msgstr "当播放过去的节目（追播）或视频点播（VOD）频道时，
 
 #. Description of setting with label #14085 "Video disc insert action"
 msgctxt "#36440"
-msgid "Action to take when a video disc is inserted."
-msgstr "插入视频光盘时执行的操作。"
+msgid "Enable hardware video decode using Amlogic decoder."
+msgstr "使用Amlogic硬件解码器解码视频。"
 
 #. Description of setting with label #14097 "Audio CD Insert Action"
 msgctxt "#36441"
-msgid "Action to take when an audio CD is inserted."
-msgstr "插入音频 CD 时执行的操作。"
+msgid "Reduces audio processing latency. Improves playback start, unpause and seek (the audio returns sooner).\nYou can disable this setting if you experience audio issues."
+msgstr "减少音频处理缓冲，缩短开始播放、取消暂停和跳转后恢复声音的等待时间。遇到音频异常时可关闭此项。"
 
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
@@ -18253,18 +18249,18 @@ msgstr "设置音量控制级数。"
 
 #. Description of setting with label #14126 "Whitelist"
 msgctxt "#36443"
-msgid "Whitelisted modes give the user the control to choose which display modes are allowed or not allowed to be used"
-msgstr "白名单模式允许用户可以控制允许或不允许使用哪些显示模式"
+msgid "Sets which display modes (resolution and refresh rate) Kodi is allowed to switch to during video playback. When a video's resolution and frame rate match a mode on this list, it is sent to the display at native resolution and refresh rate (no scaling or frame-rate conversion); otherwise Kodi falls back to the closest available mode and scales / frame-rate-converts to fit. Leave the list empty to let Kodi choose automatically from all modes at or above the desktop resolution. Has no effect unless \"Adjust display refresh rate\" is enabled. Only add 2160p 50/60Hz here if you actually play 50/60fps 4K video and your display/AVR chain handles it reliably - those modes use the most HDMI bandwidth and can drop sync. Lower-frame-rate video (24/25/30fps) does not need them."
+msgstr "选择播放视频时允许自动切换的分辨率和刷新率。Kodi先匹配视频尺寸和帧率，再按允许的倍频规则及可用模式回退；必要时仍会缩放画面或重复帧。留空时使用Kodi自动生成的候选列表。仅在开启“调整显示刷新率”时生效。4K50/60Hz模式应根据片源和显示设备、功放及线缆的实际能力添加。"
 
 #. Description of setting with label #14127 "Whitelist"
 msgctxt "#36444"
 msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
-msgstr "选择此选项可允许使用3:2折刷新率（在59.94 Hz显示器上播放23.976 FPS视频或在60 Hz显示器上播放24 FPS视频）。如果您的显示器没有23.976 Hz或24 Hz模式，则可能要使用此选项。"
+msgstr "允许使用视频帧率2.5倍的输出刷新率，通过3:2帧重复播放。例如23.976fps对应59.94Hz，24fps对应60Hz。适合显示器没有23.976Hz或24Hz模式的情况。"
 
 #. Description of setting with label #14128 "Whitelist"
 msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
-msgstr "选择此选项可允许使用双倍刷新率（在59.94 Hz显示器上播放29.97 FPS视频或在60 Hz显示器上播放30 FPS视频）。如果您的显示器没有29.97 Hz或30 Hz模式，则可能要使用此选项。"
+msgstr "允许使用视频帧率两倍的输出刷新率，例如29.97fps对应59.94Hz，30fps对应60Hz。开启后，即使已有同帧率模式，也会继续检查双倍刷新率候选。白名单留空时，Kodi也会自动尝试双倍刷新率匹配。"
 
 #. Value of the track order settings #36448 #36450 #36452
 msgctxt "#36446"
@@ -18408,8 +18404,8 @@ msgstr "同影片格式"
 
 #. Description of setting with label #346 "Normalize levels on downmix"
 msgctxt "#36533"
-msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible."
-msgstr "选择音频混缩方式，如从5.1到2.0：[CR][启用] 保持原始音频源的音量级别，动态范围将被压缩。[CR][禁用] 混缩时保持原始音频源的动态范围，音量将减小。注意：动态范围是音频源中最安静和最大声之间的差异。当电影中的对话几乎听不见时启用此设置。"
+msgid "Select how audio is downmixed, e.g. from 5.1 to 2.0.[CR][Enabled] Maintains volume level of the original audio source however the dynamic range is compressed.[CR][Disabled] Maintains the dynamic range of the original audio source when downmixed however volume will be lower. Note: Dynamic range is the difference between the quietest and loudest sounds in an audio source. Enable this setting if movie dialogues are barely audible.[CR]This only sets the downmix level; for AC3/EAC3 the dynamic range itself is compressed separately by \"Dynamic range compression (AC3/EAC3)\"."
+msgstr "设置多声道音频下混为较少声道时的音量处理。[CR]启用：尽量保持原音量。[CR]关闭：为混音预留余量，音量可能降低。[CR]此项控制下混增益；AC3/EAC3的动态范围压缩由独立的“动态范围压缩”选项控制。"
 
 #. Description of setting with label #668 "Component-specific logging..."
 msgctxt "#36534"
@@ -18701,8 +18697,8 @@ msgstr "增加少量的图像噪点以消除因 RGB 级别转换或其它处理�
 
 #. Description of setting with label #36100 "Dither depth"
 msgctxt "#36599"
-msgid "Video dithering output precision in bits. Auto enables dithering only when beneficial (limited- / full-range mismatch, bit depth reduction, downscaling, or HDR tone mapping) and uses 8- or 10-bit depth based on what the display supports. Lower settings are available for testing purposes only."
-msgstr "视频抖动输出位深精度。自动模式仅在必要时开启抖动处理（如有限色域 / 全色域不匹配、位深压缩、画面降分辨率、HDR 色调映射场景），并根据显示设备适配 8 位或 10 位输出精度。更低档位仅作测试使用。"
+msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
+msgstr "设置视频抖动处理的输出精度，范围为2至8位，默认8位。较低精度会增加可见噪点，主要用于检查抖动是否生效，以及噪点尺寸是否与输出分辨率匹配。"
 
 #. Description of settings category with label #14022 "Library"
 msgctxt "#36600"
@@ -18844,8 +18840,8 @@ msgstr "最低协议版本"
 
 #. Description of setting with label #36628 "Minimum protocol version"
 msgctxt "#36629"
-msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some systems. Only SMBv2.1 and SMBv3 support Large MTU (chunk size > 64 KB)."
-msgstr "设置建立连接时要协商的最低 SMB 协议版本。可能需要强制 SMBv2 以防止在某些系统上使用 SMBv1。只有 SMBv2.1 和 SMBv3 支持大 MTU（块大小> 64 KB）。"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
+msgstr "设置建立SMB连接时允许协商的最低协议版本。部分系统需要强制选择SMBv2或更高版本，才能避免使用SMBv1。"
 
 #. Label of a setting, sets additional config required for some proprietary SMBv1 implementations (mostly routers)
 msgctxt "#36630"
@@ -19058,8 +19054,8 @@ msgstr "浏览"
 
 #. Description of setting with label #448 "Dolby Digital Plus (E-AC3) capable receiver"
 msgctxt "#37016"
-msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
-msgstr "当你的功放能解码杜比数字+（E-AC3）音频流时选择此项。"
+msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (EAC3) streams."
+msgstr "功放能够解码杜比数字+（EAC3）音频流时启用此项。"
 
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
@@ -20193,7 +20189,7 @@ msgstr "在文件视图中启用标签读取"
 
 #. Label for component level debug logging setting
 msgctxt "#39126"
-msgid "Verbose logging for the [B]Bluray[/B] component"
+msgid "Verbose logging for the [B]Blu-ray[/B] component"
 msgstr "[B]蓝光[/B]组件的详细日志记录"
 
 msgctxt "#39127"
@@ -20322,8 +20318,8 @@ msgstr "覆盖字幕样式"
 
 #. Description of setting with label #39154 "Override subtitles styles"
 msgctxt "#39155"
-msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "某些字幕格式，如 SSA/ASS/webvtt，可以包含字体样式、颜色、大小、对齐、位置等的元数据。您可以覆盖使用自定义样式（请注意，在某些情况下可能会产生副作用）。"
+msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases). For native ASS / SSA files, this only takes effect when \"Override ASS / SSA styles\" is enabled."
+msgstr "ASS、SSA、WebVTT等文本字幕可以自带字体、颜色、大小、对齐和位置等信息。启用覆盖后使用Kodi中的对应设置，可能改变原有排版。原生ASS/SSA字幕还需通过“覆盖ASS/SSA样式”选择允许覆盖的内容。"
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 msgctxt "#39156"
@@ -20477,8 +20473,8 @@ msgstr "语音识别权限不足"
 
 #. Title of group menu subtitles
 msgctxt "#39186"
-msgid "Styles for text based subtitles"
-msgstr "基于文本的字幕样式"
+msgid "Styles for subtitles"
+msgstr "字幕样式"
 
 #. Title of group menu subtitles
 msgctxt "#39187"
@@ -20516,8 +20512,8 @@ msgstr "播放音乐时，不会激活屏幕保护程序"
 
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 msgctxt "#39194"
-msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 2560x1440 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX and Intel Arc."
-msgstr "启用使用 NVIDIA “RTX 视频超分辨率” 或 Intel “视频超分辨率” 的高级 DXVA 升频器。[CR]当视频源分辨率为 2560×1440 或更低，且低于显示器分辨率时生效。[CR]仅支持特定硬件：NVIDIA RTX 系列显卡和 Intel Arc 系列显卡。"
+msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 1920x1080 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX 20xx, 30xx, 40xx and above, Intel Arc A770, A750."
+msgstr "通过DXVA调用显卡驱动的视频超分辨率功能。当前实现要求片源宽度不超过1920像素、输出宽度大于片源宽度，且片源不是BT.2020、PQ或HLG内容。仅在显卡和驱动支持时可用。"
 
 #. Description of setting with label #13418 "Use high precision processing"
 msgctxt "#39195"
@@ -20526,13 +20522,13 @@ msgstr "启用该选项可获得最佳画质。禁用可减少资源有限系统
 
 #. Title of Dolby Vision RPU conversion setting
 msgctxt "#39196"
-msgid "Dolby Vision compatibility mode"
-msgstr "杜比视界兼容模式"
+msgid "Convert profile 7"
+msgstr "转换杜比视界Profile 7"
 
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39196
 msgctxt "#39197"
-msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
-msgstr "如果启用，杜比视界 profile 7 将转换为设备更常支持的 profile 8.1。如果您的设备支持杜比视界，但在某些视频中存在问题，请启用。"
+msgid "Convert Dolby Vision profile 7 to profile 7 MEL or profile 8.1"
+msgstr "按所选转换模式，将杜比视界Profile 7转换为Profile 7 MEL或Profile 8.1。"
 
 #. Title of "Allowed HDR dynamic metadata formats" setting
 msgctxt "#39198"
@@ -20806,8 +20802,8 @@ msgstr "无法删除电影的默认版本。设置不同的默认版本后再试
 
 #. Remove video version dialog text
 msgctxt "#40020"
-msgid "Are you sure to remove version \"{0:s}\" from the library?"
-msgstr "确定要从媒体库中移除版本“{0:s}”吗？"
+msgid "Are you sure to remove version \"{0:s}\"?"
+msgstr "确定要移除版本“{0:s}”吗？"
 
 #. Remove item from library text if item has multiple versions
 msgctxt "#40021"
@@ -20983,8 +20979,8 @@ msgstr "扫描时忽略不同的视频版本"
 
 #. Help for Ignore different video versions settting
 msgctxt "#40203"
-msgid "Select the scanner action for different versions of a video.[CR][Off] Add versions of a video to the library as separate entries.[CR][Ask] Prompt if different versions should be added separately or grouped with the original.[CR][Auto] Automatically create and group the additional versions with the original."
-msgstr "选择视频多版本的扫描处理规则。[CR][关闭] 将视频各版本作为独立条目添加至媒体库。[CR][询问] 弹窗询问多版本需单独入库还是与原版归为一组。[CR][自动] 自动识别其余版本并与原版整合分组。"
+msgid "Select scanner action for different video versions.[CR][Enabled] Add different video versions to library seperately without confirmation.[CR][Disabled] Prompt for converting different video versions into additional versions of the original."
+msgstr "设置扫描时如何处理同一视频的不同版本。[CR]启用：将各版本作为独立条目入库，不询问是否合并。[CR]关闭：询问是否将不同版本合并为原条目的附加版本。"
 
 #. Ignore video extras settting
 msgctxt "#40204"
@@ -21017,8 +21013,8 @@ msgstr "选择版本：{}"
 # empty strings from id 40206 to 40208
 #. Button label for video assets
 msgctxt "#40209"
-msgid "Assets"
-msgstr "资源文件"
+msgid "Play version using..."
+msgstr "使用指定播放器播放此版本…"
 
 #. Button label for video versions
 msgctxt "#40210"
@@ -23510,3 +23506,19 @@ msgstr "转为P8.1"
 #~ msgctxt "#24163"
 #~ msgid "Match Apple tvOS Standard (Siri remote)"
 #~ msgstr "匹配 Apple tvOS 标准（Siri 遥控器）"
+
+msgctxt "#65121"
+msgid "PGS subtitle colour space"
+msgstr "PGS 字幕色彩空间"
+
+msgctxt "#65122"
+msgid "Auto uses the subtitle transfer tag when present, otherwise the video HDR type. For SDR PGS mixed into HDR video choose SDR; for untagged HDR PGS choose HDR. Changes in the playback subtitle settings reopen the current subtitle track; changes in the main settings apply when the track is next opened."
+msgstr "自动优先使用字幕自己的传输特性标记，缺失时按影片类型推定。HDR影片混入SDR PGS时可手动选择SDR。通过播放中的字幕设置修改，会重新打开当前字幕轨；在主设置中修改，于下次打开字幕轨时生效。"
+
+msgctxt "#65123"
+msgid "SDR (BT.709)"
+msgstr "SDR（BT.709）"
+
+msgctxt "#65124"
+msgid "HDR (BT.2020 PQ)"
+msgstr "HDR（BT.2020 PQ）"
