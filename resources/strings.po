@@ -22442,8 +22442,8 @@ msgstr "播放时把HDR Vivid转换成DV Profile 8.1"
 #. "Dolby Vision HDR Vivid"
 #: system/settings/settings.xml
 msgctxt "#60136"
-msgid "Set to On to convert each HDR Vivid frame's MaxRGB statistics into a DV profile 8.1 RPU during playback. Vivid tone-mapping curves are not rewritten as Dolby trims. An existing Dolby Vision RPU is left unchanged."
-msgstr "打开后，播放时把每一帧HDR Vivid的MaxRGB统计量转换成DV Profile 8.1的RPU。Vivid的调色曲线不会被改写成杜比微调。片源里已有的杜比视界RPU保持不动。"
+msgid "Set to On to convert each HDR Vivid frame's MaxRGB statistics into a DV profile 8.1 RPU during playback. Vivid tone-mapping curves are not rewritten as Dolby trims. An existing Dolby Vision RPU is left unchanged. Native HDR Vivid receiver output takes priority when available."
+msgstr "打开后，播放时把每一帧HDR Vivid的MaxRGB统计量转换成DV Profile 8.1的RPU。Vivid的调色曲线不会被改写成杜比微调。片源里已有的杜比视界RPU保持不动。支持原生HDR Vivid接收端输出时，优先使用原生输出。"
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
