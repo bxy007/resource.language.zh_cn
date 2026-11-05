@@ -23522,3 +23522,77 @@ msgstr "SDR（BT.709）"
 msgctxt "#65124"
 msgid "HDR (BT.2020 PQ)"
 msgstr "HDR（BT.2020 PQ）"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44400"
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44401"
+msgid "Traditional Chinese"
+msgstr "繁体中文"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44402"
+msgid "Simplified Chinese / English bilingual"
+msgstr "简英双语"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44403"
+msgid "Traditional Chinese / English bilingual"
+msgstr "繁英双语"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44404"
+msgid "Chinese / English bilingual (script unknown)"
+msgstr "中英（简繁未定）双语"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44405"
+msgid "Identify Chinese PGS subtitle types"
+msgstr "识别 PGS 字幕中文类型"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44406"
+msgid "Identify Simplified/Traditional Chinese and Chinese/English bilingual PGS subtitles in the background. Existing descriptive track names are preserved. Generated descriptions start with ★; track selection and media files are preserved."
+msgstr "在后台识别 PGS 字幕的中文繁简和中英双语。已有明确描述的轨道名称保留原文。识别生成的描述以★开头，不改变选轨或媒体文件。"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44407"
+msgid "Mixed Chinese scripts"
+msgstr "简繁混合"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44408"
+msgid "Chinese script unknown"
+msgstr "简繁未定"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44412"
+msgid "Signs"
+msgstr "局部翻译"
+
+#. PGS description. The ★ marker is added by the player.
+msgctxt "#44413"
+msgid "Contains forced subtitles"
+msgstr "含强制字幕"
+
+msgctxt "#44414"
+msgid "Automatically switch after identification"
+msgstr "识别后自动切换"
+
+
+msgctxt "#44415"
+msgid "Switch once to a matching PGS track after its type is known. Manual subtitle selection or visibility changes during playback take precedence."
+msgstr "确认类型后自动切换到匹配的PGS字幕轨。本次播放中手动选择或开关字幕后，不再自动切换。"
+
+
+msgctxt "#44416"
+msgid "Preferred subtitle type"
+msgstr "优先切换的字幕类型"
+
+
+msgctxt "#44417"
+msgid "Prioritize identifying this type. If no matching track is found after sampling, use the same Chinese script with the opposite mono/bilingual type. Unconfirmed tracks do not trigger fallback."
+msgstr "优先识别并选择所选类型。采样完成后仍无匹配时，简体与简英、繁体与繁英之间相互回退；尚未完成识别时不会提前回退。"
