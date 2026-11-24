@@ -23597,6 +23597,16 @@ msgctxt "#44417"
 msgid "Prioritize identifying this type. If no matching track is found after sampling, use the same Chinese script with the opposite mono/bilingual type. Unconfirmed tracks do not trigger fallback."
 msgstr "优先识别并选择所选类型。采样完成后仍无匹配时，简体与简英、繁体与繁英之间相互回退；尚未完成识别时不会提前回退。"
 
+
+msgctxt "#44418"
+msgid "Blu-ray menu playback: automatically switch after identification"
+msgstr "蓝光菜单播放：识别后自动切换"
+
+
+msgctxt "#44419"
+msgid "Allow automatic switching during full Blu-ray menu playback. When disabled, PGS tracks are still identified and labelled without overriding the Blu-ray menu's subtitle selection."
+msgstr "允许在蓝光完整菜单播放时自动切换匹配的PGS字幕轨。关闭后在蓝光完整菜单播放时仅识别并标注字幕类型，不覆盖蓝光菜单的字幕选择。"
+
 #. Experimental DV-std source-YCbCr output toggle.
 msgctxt "#69260"
 msgid "Output as YCbCr (test)"
