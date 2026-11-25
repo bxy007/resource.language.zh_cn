@@ -22305,7 +22305,7 @@ msgstr "HDR10的VS10输出"
 #: system/settings/settings.xml
 msgctxt "#60056"
 msgid "Use DV VS10 output target mode for HDR10 video."
-msgstr "HDR10使用这里选的VS10输出。"
+msgstr "HDR10使用这里选的VS10输出（未转为DV且无原生输出的PQ型HDR Vivid也共用此项）。"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
@@ -22323,13 +22323,13 @@ msgstr "HDR10+使用这里选的VS10输出，不使用HDR10+动态元数据。"
 #: system/settings/settings.xml
 msgctxt "#60059"
 msgid "DV VS10 for HLG video"
-msgstr "HLG和HDR Vivid的VS10输出"
+msgstr "HLG的VS10输出"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
 msgctxt "#60060"
 msgid "Use DV VS10 output target mode for HLG video (processed by VS10 as SDR)."
-msgstr "HLG和HDR Vivid共用这项VS10输出，VS10按SDR处理。"
+msgstr "HLG使用这里选的VS10输出，VS10按SDR处理（未转为DV且无原生输出的HLG型HDR Vivid也共用此项）。"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
@@ -22521,7 +22521,7 @@ msgstr "两路都有时，选择输出DV还是HDR10+"
 #: system/settings/settings.xml
 msgctxt "#60132"
 msgid "When both DV and HDR10+ video streams are present, choose which video stream to output."
-msgstr "同时有DV和HDR10+视频流时，选择输出哪一路。"
+msgstr "同时有DV和HDR10+视频流时，选择输出哪一路。选择HDR10+时同时停用HDR10+转DV。"
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
