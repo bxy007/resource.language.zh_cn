@@ -23607,12 +23607,48 @@ msgctxt "#44419"
 msgid "Allow automatic switching during full Blu-ray menu playback. When disabled, PGS tracks are still identified and labelled without overriding the Blu-ray menu's subtitle selection."
 msgstr "允许在蓝光完整菜单播放时自动切换匹配的PGS字幕轨。关闭后在蓝光完整菜单播放时仅识别并标注字幕类型，不覆盖蓝光菜单的字幕选择。"
 
-#. Experimental DV-std source-YCbCr output toggle.
+#. Standard Dolby Vision (Display-Led) output mode selector.
 msgctxt "#69260"
-msgid "Output as YCbCr (test)"
-msgstr "以YCbCr输出(测试)"
+msgid "DV-std output mode"
+msgstr "标准杜比视界输出模式"
 
-#. Help for the experimental DV-std source-YCbCr output toggle.
+#. Help for the Standard Dolby Vision output mode selector.
 msgctxt "#69261"
-msgid "Use experimental YCbCr transmission with DV-std output. Unsupported sources retain the normal Dolby Vision path. GUI and subtitle brightness or transparency may be incorrect. Off by default."
-msgstr "在DV-std输出下使用实验性的YCbCr传输。不支持的片源保持原来的杜比视界处理路径。界面和字幕的亮度或半透明效果可能异常。默认关闭。"
+msgid "Choose the output mode for Display-Led standard Dolby Vision. IPT-PQc2 is the default path. IPT-PQc2 direct subtitles and YCbCr direct subtitles avoid Core 3 color conversion for higher video precision while bypassing Dolby Vision subtitle tone mapping; if unsupported during playback, output automatically reverts to IPT-PQc2 with a notification."
+msgstr "选择显示端引导（TV-Led）标准杜比视界的输出方式。IPT-PQc2为默认路径；IPT-PQc2字幕直出与YCbCr字幕直出可减少色彩往返转换误差，同时跳过杜比视界字幕映射直出字幕；若播放时硬件或片源不支持，将自动回退到IPT-PQc2并弹窗提示。"
+
+msgctxt "#69262"
+msgid "IPT-PQc2"
+msgstr "IPT-PQc2"
+
+msgctxt "#69263"
+msgid "IPT-PQc2 direct subtitles"
+msgstr "IPT-PQc2字幕直出"
+
+msgctxt "#69264"
+msgid "YCbCr direct subtitles"
+msgstr "YCbCr字幕直出"
+
+msgctxt "#69265"
+msgid "Dolby Vision"
+msgstr "杜比视界"
+
+msgctxt "#69266"
+msgid "reverted to IPT-PQc2"
+msgstr "已回退到IPT-PQc2"
+
+msgctxt "#69267"
+msgid "requires dovi5 module"
+msgstr "需要加载dovi5模块"
+
+msgctxt "#69268"
+msgid "unsupported chip or output mode"
+msgstr "芯片或输出模式不支持"
+
+msgctxt "#69269"
+msgid "unsupported source or metadata"
+msgstr "片源或元数据不支持"
+
+msgctxt "#69270"
+msgid "hardware check failed"
+msgstr "硬件寄存器校验未通过"
